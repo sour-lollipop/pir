@@ -16,4 +16,7 @@
         width: 50%;
         color: #EFEFEF;
     }
+    @media (max-width: 768px) {
+        p{width: 90%;}
+      }
 }

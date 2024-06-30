@@ -6,6 +6,8 @@
   flex-direction: row;
   align-items: center;
   justify-content: space-between;
+  // z-index: 1000;
+
 }
 
 .logo {
@@ -70,6 +72,7 @@ nav a:hover {
   display: flex;
   flex-direction: column;
   gap: 5%;
+  z-index: 3000;
   button{
     font-size: 30px;
     width: 30px;
