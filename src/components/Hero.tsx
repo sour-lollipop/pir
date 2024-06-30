@@ -6,7 +6,7 @@ const Hero: React.FC = () => {
       <div className='text'>
       <h1>Добро пожаловать <br></br>в PIR-Kazakhstan!</h1>
       <p>Ваш надежный партнер в IT-услугах и автоматизации</p>
-      <a href="#contact" className="cta-button">Свяжитесь с нами</a>
+      <a href="https://wa.me/87084189639" className="cta-button">Свяжитесь с нами</a>
       </div>
       <img src={globus}/>
     </section>

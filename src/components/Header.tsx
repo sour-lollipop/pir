@@ -32,7 +32,7 @@ const Header: React.FC = () => {
               </li>
             </ul>
           </nav>
-          <div className="button">Связаться с нами</div>
+          <div className="button"><a href="https://wa.me/87084189639">Связаться с нами</a></div>
         </>
       ) : (
         <>
@@ -55,7 +55,7 @@ const Header: React.FC = () => {
                 <li>
                   <a href="#contact" onClick={() => setMenuOpen(false)}>Контакты</a>
                 </li>
-          <div className="button" onClick={() => setMenuOpen(false)}>Связаться с нами</div>
+          <div className="button" onClick={() => setMenuOpen(false)}><a href="https://wa.me/87084189639">Связаться с нами</a></div>
           </ul>
             </div>
           )}
