@@ -1,0 +1,47 @@
+@use "About";
+@use "Advantages";
+@use "Contact";
+@use "Footer";
+@use "Header";
+@use "Hero";
+@use "Services";
+
+@font-face {
+  font-family: 'Inter';
+  src: url('../fonts/Inter-VariableFont_slnt,wght.ttf') format('truetype');
+  font-weight: 100 900;
+  font-style: normal;
+}
+body{
+  font-family: 'Inter';
+  font-weight: 600;
+  letter-spacing: -4%;
+  background-color: #EFEFEF;
+  // max-width: 1920px;
+  // padding: 0 10px;
+  // display: flex;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+}
+.App{
+  max-width: 1920px;
+
+}
+main{
+  display: flex;
+  flex-direction: column;
+}
+@media (max-width: 768px) {
+    .header {
+      flex-direction: row;
+      justify-content: space-between;
+  
+      nav ul {
+        flex-direction: column;
+        align-items: center;
+      }
+    }
+  }
+  

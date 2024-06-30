@@ -1,0 +1,57 @@
+.hero {
+    // background: url('/path/to/background.jpg') center/cover no-repeat;
+    background: #EFEFEF;
+    color: #000000;
+    padding: 100px 20px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    @media (max-width: 768px) {
+      display: flex;
+      flex-direction: column-reverse;
+    }
+    
+    .text{
+      display: flex;
+      flex-direction: column;
+      gap: 30px;    
+      align-items: flex-start;
+      @media (max-width: 768px) {
+        align-items: center;
+
+      }
+      
+    }
+    h1{
+      font-size: 72px;
+      font-weight: 700;
+      line-height: 100%;
+      letter-spacing: -4%;
+      margin: 0;
+    }
+    p{
+      font-size: 20px;
+      margin: 0;
+      color: #969696;
+    }
+    img{
+      height: 60vh;
+      @media (max-width: 768px) {
+        height: 100vw;
+
+      }
+    }
+    .cta-button {
+      background-color: #000000;
+      padding: 10px 20px;
+      color: #ffffff;
+      text-decoration: none;
+      font-size: 20px;
+      padding: 15px;
+      border-radius: 10px;
+      cursor: pointer;
+    text-align: center;
+    width: 300px;
+    }
+  }
+  
