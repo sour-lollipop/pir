@@ -1,0 +1,27 @@
+.footer{
+    background-color: #000000;
+    color: #F8F8F8;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    .contacts{
+        display: flex;
+        gap: 30px;
+    }
+    .grey{
+        color: #969696;
+    }
+    border-radius: 10px;
+    padding: 0 15px;
+    .p{
+        display: flex;
+        align-items: center;
+        gap: 5px;
+    }
+    @media (max-width: 768px) {
+        display: flex;
+        flex-direction: column;
+        padding-top: 20px;
+      }
+
+}
