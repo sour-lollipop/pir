@@ -8,7 +8,7 @@ const Services: React.FC = () => {
   };
 
   return (
-    <div className="services">
+    <div className="services" id="services">
       {/* <h1>Наши услуги:</h1> */}
       <div className="container">
         {services.map((service) => (<>
